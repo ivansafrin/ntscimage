@@ -13,7 +13,7 @@ uint16_t drawRGB24toRGB565(uint8_t r, uint8_t g, uint8_t b)
 int main(int argc, char **argv) {
 	
 	if(argc < 3) {
-		printf("Usage: ntscimage [-stcab] inimage outimage.png\n");
+		printf("Usage: ntscimage inimage outimage.png\n");
 		printf("inimage can be most common image formats, outimage is always 24-bit PNG.\n");
 		printf("\n\n");
 		return 1;
